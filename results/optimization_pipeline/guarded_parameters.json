@@ -1,0 +1,47 @@
+{
+  "parameter_names": [
+    "R_mOhm",
+    "log10_Dn",
+    "log10_j0n",
+    "log10_j0p",
+    "negative_active_fraction",
+    "positive_active_fraction",
+    "lithium_inventory_Ah",
+    "discharge_initial_LFP_charge_fraction"
+  ],
+  "optimizer_vector": [
+    8.0,
+    -13.70428889555272,
+    0.9205846436569088,
+    -1.3010299956639813,
+    0.5875,
+    0.394,
+    2.7267618409544263,
+    0.3770652419539913
+  ],
+  "physical_parameters": {
+    "R_Ohm": 0.008,
+    "Dn_m2_s": 1.9756549841802243e-14,
+    "j0n_A_m2": 8.328842386580629,
+    "j0p_A_m2": 0.049999999999999996,
+    "eps_n": 0.5875,
+    "eps_p": 0.394,
+    "QLi_Ah": 2.7267618409544263,
+    "discharge_initial_LFP_charge_fraction": 0.3770652419539913
+  },
+  "reference_parameters": {
+    "R_Ohm": 0.008,
+    "Dn_m2_s": 1.7790482390716613e-14,
+    "j0n_A_m2": 7.500000000000001,
+    "j0p_A_m2": 0.049999999999999996,
+    "eps_n": 0.58,
+    "eps_p": 0.374,
+    "QLi_Ah": 2.731761840954426,
+    "discharge_initial_LFP_charge_fraction": 1.0
+  },
+  "training_objective_mV": 32.66368196155672,
+  "runtime_s": 701.0010681152344,
+  "candidate_trials": 45,
+  "accepted_trials": 7,
+  "method": "Bounded scalar history fit, coordinate sweeps and paired moves with HPPC checks."
+}

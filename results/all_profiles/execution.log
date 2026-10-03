@@ -1,0 +1,28 @@
+   Parameter  Previous_1C        Final
+       R_Ohm 1.657560e-02 8.000000e-03
+     Dn_m2_s 1.779048e-14 1.975655e-14
+    j0n_A_m2 7.500000e+00 8.328842e+00
+    j0p_A_m2 5.000000e-02 5.000000e-02
+       eps_n 5.800000e-01 5.875000e-01
+       eps_p 3.740000e-01 3.940000e-01
+      QLi_Ah 2.731762e+00 2.726762e+00
+discharge_a0 1.000000e+00 3.770652e-01
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+Charge_1C: prefix RMSE 27.35 mV; coverage 100.00%; end 1.7058 h; final time
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+Charge_2C: prefix RMSE 25.57 mV; coverage 100.00%; end 1.2339 h; final time
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+Charge_3C: prefix RMSE 26.94 mV; coverage 100.00%; end 1.0741 h; final time
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+Charge_4C: prefix RMSE 20.07 mV; coverage 100.00%; end 0.9906 h; final time
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+Discharge_1C: prefix RMSE 26.49 mV; coverage 100.00%; end 1.0780 h; final time
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+HPPC: prefix RMSE 35.82 mV; coverage 72.53%; end 18.2736 h; event: Minimum voltage [V]
+Saved voltage plots, residuals, metrics, parameters and states to /workspace/scratch/5c6d954ffdb7/output/A123_Simple_DFN_Project/results/all_profiles

@@ -1,0 +1,10 @@
+`xtol` termination condition is satisfied.
+Function evaluations 27, initial cost 1.6959e+00, final cost 2.8735e-02, first-order optimality 6.68e-03.
+Optimizer: `xtol` termination condition is satisfied.
+Full-record RMSE: 15.15 mV
+CC-phase RMSE: 9.45 mV
+                Parameter  Initial  Optimized
+Initial graphite fraction    0.070   0.072941
+     Initial LFP fraction    0.800   0.763510
+                  R (ohm)    0.015   0.015975
+            Dn multiplier    3.000   4.535953

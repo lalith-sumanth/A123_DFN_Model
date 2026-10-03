@@ -1,0 +1,57 @@
+{
+  "reference_parameters": {
+    "R_Ohm": 0.008,
+    "Dn_m2_s": 1.7790482390716613e-14,
+    "j0n_A_m2": 7.500000000000001,
+    "j0p_A_m2": 0.049999999999999996,
+    "eps_n": 0.58,
+    "eps_p": 0.374,
+    "QLi_Ah": 2.731761840954426,
+    "discharge_initial_LFP_charge_fraction": 1.0
+  },
+  "reference_end_s": 65784.71943729217,
+  "reference_metrics": {
+    "early": {
+      "charge_pulse_count": 8,
+      "charge_pulse_valid_count": 8,
+      "charge_pulse_RMSE_mV": 24.263534439403507,
+      "charge_pulse_max_error_mV": 49.712649025460905,
+      "discharge_pulse_count": 400,
+      "discharge_pulse_valid_count": 400,
+      "discharge_pulse_RMSE_mV": 63.064586428610006,
+      "discharge_pulse_max_error_mV": 182.28174487190384,
+      "rest_count": 4295,
+      "rest_valid_count": 4295,
+      "rest_RMSE_mV": 26.70987905577123,
+      "rest_max_error_mV": 102.9040590145458
+    },
+    "late": {
+      "charge_pulse_count": 1708,
+      "charge_pulse_valid_count": 1708,
+      "charge_pulse_RMSE_mV": 48.583417206576485,
+      "charge_pulse_max_error_mV": 126.45043217757079,
+      "discharge_pulse_count": 2579,
+      "discharge_pulse_valid_count": 2579,
+      "discharge_pulse_RMSE_mV": 82.32960828402415,
+      "discharge_pulse_max_error_mV": 443.76868104677624,
+      "rest_count": 24930,
+      "rest_valid_count": 24930,
+      "rest_RMSE_mV": 26.24096350069698,
+      "rest_max_error_mV": 126.8880115999984
+    }
+  },
+  "high_current_threshold_A": 5.0,
+  "early_window_s": [
+    0,
+    7200.0
+  ],
+  "late_window_s": [
+    7200.0,
+    65783.71943729217
+  ],
+  "pulse_RMSE_allowance_mV": 1.0,
+  "pulse_max_error_allowance_mV": 5.0,
+  "rest_RMSE_allowance_mV": 2.0,
+  "end_allowance_s": 1.0,
+  "HPPC_use": "Calibration acceptance; not independent validation."
+}

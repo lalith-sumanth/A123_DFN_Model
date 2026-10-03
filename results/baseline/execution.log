@@ -1,0 +1,16 @@
+   Parameter        Value
+       R_Ohm 1.000000e-02
+     Dn_m2_s 3.000000e-15
+    j0n_A_m2 7.500000e+00
+    j0p_A_m2 5.000000e-02
+       eps_n 5.800000e-01
+       eps_p 3.740000e-01
+      QLi_Ah 2.367046e+00
+discharge_a0 1.000000e+00
+Charge_1C: prefix RMSE 40.78 mV; coverage 48.82%; end 0.8328 h; event: Maximum voltage [V]
+Charge_2C: prefix RMSE 41.03 mV; coverage 33.31%; end 0.4110 h; event: Maximum voltage [V]
+Charge_3C: prefix RMSE 54.19 mV; coverage 22.28%; end 0.2393 h; event: Maximum voltage [V]
+Charge_4C: prefix RMSE 64.10 mV; coverage 15.99%; end 0.1583 h; event: Maximum voltage [V]
+Discharge_1C: prefix RMSE 219.63 mV; coverage 65.04%; end 0.7011 h; event: Minimum voltage [V]
+HPPC: prefix RMSE 69.30 mV; coverage 10.47%; end 2.6370 h; event: Maximum voltage [V]
+Saved voltage plots, residuals, metrics, parameters and states to /workspace/scratch/5c6d954ffdb7/output/A123_Simple_DFN_Project/results/baseline

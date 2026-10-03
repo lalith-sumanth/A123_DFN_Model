@@ -1,0 +1,93 @@
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+Reference objective 251.56181322914134 mV; HPPC endpoint 18.2735331770256 h
+trial 1 discharge initial history only score 40.047 accepted True accepted
+trial 2 sweep 1: R_mOhm increase score 39.419 accepted False charge_pulse RMSE worsened; discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 3 sweep 1: log10_Dn decrease score 39.201 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 4 sweep 1: log10_Dn increase score 41.108 accepted False no sufficient training improvement
+trial 5 sweep 1: log10_j0n decrease score 39.748 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 6 sweep 1: log10_j0n increase score 40.321 accepted False no sufficient training improvement
+trial 7 sweep 1: log10_j0p decrease score 39.749 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 8 sweep 1: log10_j0p increase score 40.326 accepted False no sufficient training improvement
+trial 9 sweep 1: negative_active_fraction decrease score 43.073 accepted False no sufficient training improvement
+trial 10 sweep 1: negative_active_fraction increase score 37.487 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 11 sweep 1: positive_active_fraction decrease score 47.077 accepted False discharge_pulse RMSE worsened; no sufficient training improvement
+trial 12 sweep 1: positive_active_fraction increase score 34.495 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 13 sweep 1: lithium_inventory_Ah decrease score 72.038 accepted False no sufficient training improvement
+trial 14 sweep 1: lithium_inventory_Ah increase score 63.061 accepted False no sufficient training improvement
+trial 15 sweep 1: discharge_initial_LFP_charge_fraction decrease score 43.832 accepted False no sufficient training improvement
+trial 16 sweep 1: discharge_initial_LFP_charge_fraction increase score 46.043 accepted False no sufficient training improvement
+trial 17 sweep 2: R_mOhm increase score 39.723 accepted False charge_pulse RMSE worsened; discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 18 sweep 2: log10_Dn decrease score 39.58 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 19 sweep 2: log10_Dn increase score 40.569 accepted False no sufficient training improvement
+trial 20 sweep 2: log10_j0n decrease score 39.904 accepted False discharge_pulse RMSE worsened
+trial 21 sweep 2: log10_j0n increase score 40.188 accepted False no sufficient training improvement
+trial 22 sweep 2: log10_j0p decrease score 39.901 accepted False discharge_pulse RMSE worsened
+trial 23 sweep 2: log10_j0p increase score 40.19 accepted False no sufficient training improvement
+trial 24 sweep 2: negative_active_fraction decrease score 41.511 accepted False no sufficient training improvement
+trial 25 sweep 2: negative_active_fraction increase score 38.7 accepted True accepted
+trial 26 sweep 2: positive_active_fraction decrease score 41.88 accepted False no sufficient training improvement
+trial 27 sweep 2: positive_active_fraction increase score 35.939 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 28 sweep 2: lithium_inventory_Ah decrease score 32.985 accepted False discharge_pulse RMSE worsened; discharge_pulse peak error worsened
+trial 29 sweep 2: lithium_inventory_Ah increase score 49.412 accepted False no sufficient training improvement
+trial 30 sweep 2: discharge_initial_LFP_charge_fraction decrease score 39.637 accepted False no sufficient training improvement
+trial 31 sweep 2: discharge_initial_LFP_charge_fraction increase score 40.521 accepted False no sufficient training improvement
+trial 32 paired step 0.5: log10_Dn increase + positive_active_fraction increase score 36.432 accepted True accepted
+trial 33 paired step 0.25: log10_Dn increase + positive_active_fraction increase score 37.506 accepted False no sufficient training improvement
+trial 34 paired step 0.5: log10_Dn increase + negative_active_fraction increase score 35.988 accepted True accepted
+trial 35 paired step 0.25: log10_Dn increase + negative_active_fraction increase score 36.187 accepted False no sufficient training improvement
+trial 36 paired step 0.5: log10_j0n increase + positive_active_fraction increase score 34.153 accepted True accepted
+trial 37 paired step 0.25: log10_j0n increase + positive_active_fraction increase score 35.002 accepted False no sufficient training improvement
+trial 38 paired step 0.5: log10_j0n decrease + log10_j0p increase score 34.146 accepted False no sufficient training improvement
+trial 39 paired step 0.25: log10_j0n decrease + log10_j0p increase score 34.153 accepted False no sufficient training improvement
+trial 40 paired step 0.5: positive_active_fraction increase + lithium_inventory_Ah increase score 39.037 accepted False no sufficient training improvement
+trial 41 paired step 0.25: positive_active_fraction increase + lithium_inventory_Ah increase score 36.218 accepted False no sufficient training improvement
+trial 42 paired step 0.5: negative_active_fraction decrease + lithium_inventory_Ah decrease score 37.393 accepted False no sufficient training improvement
+trial 43 paired step 0.25: negative_active_fraction decrease + lithium_inventory_Ah decrease score 32.792 accepted True accepted
+trial 44 paired step 0.5: log10_Dn decrease + log10_j0n increase score 32.552 accepted False discharge_pulse peak error worsened
+trial 45 paired step 0.25: log10_Dn decrease + log10_j0n increase score 32.664 accepted True accepted
+                            Parameter      Initial    Optimized
+                                R_Ohm 8.000000e-03 8.000000e-03
+                              Dn_m2_s 1.779048e-14 1.975655e-14
+                             j0n_A_m2 7.500000e+00 8.328842e+00
+                             j0p_A_m2 5.000000e-02 5.000000e-02
+                                eps_n 5.800000e-01 5.875000e-01
+                                eps_p 3.740000e-01 3.940000e-01
+                               QLi_Ah 2.731762e+00 2.726762e+00
+discharge_initial_LFP_charge_fraction 1.000000e+00 3.770652e-01
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+reference Charge_1C end_s 6141.0 RMSE_mV 23.01 complete True runtime_s 2.3
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+reference Charge_2C end_s 4442.16 RMSE_mV 40.02 complete True runtime_s 1.9
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+reference Charge_3C end_s 3866.9 RMSE_mV 44.67 complete True runtime_s 2.0
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+reference Charge_4C end_s 3566.08 RMSE_mV 28.53 complete True runtime_s 2.1
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+reference Discharge_1C end_s 3510.0 RMSE_mV 101.81 complete False runtime_s 0.9
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+reference HPPC end_s 65784.72 RMSE_mV 35.37 complete False runtime_s 31.6
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+pulse_checked Charge_1C end_s 6141.0 RMSE_mV 27.36 complete True runtime_s 2.1
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+pulse_checked Charge_2C end_s 4442.16 RMSE_mV 25.57 complete True runtime_s 2.2
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+pulse_checked Charge_3C end_s 3866.9 RMSE_mV 26.94 complete True runtime_s 2.0
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+pulse_checked Charge_4C end_s 3566.08 RMSE_mV 20.07 complete True runtime_s 2.0
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+pulse_checked Discharge_1C end_s 3880.79 RMSE_mV 26.49 complete True runtime_s 0.9
+/workspace/scratch/5c6d954ffdb7/tmp/pybamm_deps/pybamm/models/full_battery_models/lithium_ion/base_lithium_ion_model.py:279: UserWarning: The definition of the hysteresis decay rate parameter has changed in PyBaMM v25.10. Please see the CHANGELOG for more details.
+  self.submodels[f"{domain} {phase} open-circuit potential"] = ocp_model(
+pulse_checked HPPC end_s 65784.87 RMSE_mV 35.82 complete False runtime_s 32.9

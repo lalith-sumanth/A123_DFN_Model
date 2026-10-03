@@ -1,0 +1,1122 @@
+{
+  "all_passed": true,
+  "checks_passed": 222,
+  "trials": 45,
+  "accepted_trials": 7,
+  "maximum_trial_objective_difference_mV": 0.0,
+  "final_parameters_match_fixed_case": true,
+  "HPPC_end_h": 18.273574542431163,
+  "training_objective_mV": 32.66368196155672,
+  "checks": [
+    {
+      "check": "baseline_run.py unchanged",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "initial_parameter_optimization.py unchanged",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "multi_profile_optimization.py unchanged",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "hppc_and_all_profiles.py unchanged",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "requirements.txt unchanged",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "initial_parameter_optimization.py parses",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "multi_profile_optimization.py parses",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "optimization_model.py parses",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "multi_profile_optimization_pipeline.py parses",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "baseline_run.py parses",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "hppc_and_all_profiles.py parses",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "graphite preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "lfp_charge preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "lfp_discharge preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "electrode_capacity preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "decode preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "initialize preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "phase_masks preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "build_simulation preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "solve_profile preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "evaluate preserved",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Original 45 proposals executed",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Original seven accepted moves reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "All decisions reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "All labels/order reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "All rejection reasons reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "trial reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "change reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "R_mOhm reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "log10_Dn reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "log10_j0n reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "log10_j0p reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "negative_active_fraction reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "positive_active_fraction reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "lithium_inventory_Ah reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "discharge_initial_LFP_charge_fraction reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "training_objective_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C_coverage reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C_coverage reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C_coverage reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C_coverage reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C_coverage reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_charge_pulse_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_charge_pulse_valid_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_charge_pulse_RMSE_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_charge_pulse_max_error_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_discharge_pulse_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_discharge_pulse_valid_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_discharge_pulse_RMSE_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_discharge_pulse_max_error_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_rest_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_rest_valid_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_rest_RMSE_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_rest_max_error_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_end_s reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "early_termination reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_charge_pulse_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_charge_pulse_valid_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_charge_pulse_RMSE_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_charge_pulse_max_error_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_discharge_pulse_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_discharge_pulse_valid_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_discharge_pulse_RMSE_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_discharge_pulse_max_error_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_rest_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_rest_valid_count reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_rest_RMSE_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_rest_max_error_mV reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_end_s reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "late_termination reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "reason reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Final optimizer vector reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Final objective reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Starts at earlier reference",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Search actually moved from reference",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "R_Ohm matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Dn_m2_s matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "j0n_A_m2 matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "j0p_A_m2 matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "eps_n matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "eps_p matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "QLi_Ah matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "discharge_a0 matches fixed case",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Resistance >=8 mOhm",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Bounds honoured",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "end_s metrics reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "time_coverage_percent metrics reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "prefix_RMSE_mV metrics reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "full_RMSE_mV metrics reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "common_window_RMSE_mV metrics reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "minimum_anode_surface_potential_V metrics reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "charge_pulse_count pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "charge_pulse_valid_count pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "charge_pulse_RMSE_mV pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "charge_pulse_max_error_mV pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "discharge_pulse_count pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "discharge_pulse_valid_count pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "discharge_pulse_RMSE_mV pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "discharge_pulse_max_error_mV pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "rest_count pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "rest_valid_count pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "rest_RMSE_mV pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "rest_max_error_mV pulse result reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C reference stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C reference stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C reference stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C reference stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C reference stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC reference stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "reference HPPC missing tail explicit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C pulse_checked stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_1C optimized complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C pulse_checked stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_2C optimized complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C pulse_checked stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_3C optimized complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C pulse_checked stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Charge_4C optimized complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C pulse_checked stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Discharge_1C optimized complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked voltage trace reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked RMSE independently calculated",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked detailed states reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked history bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked initial lithium balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked rest voltage initialized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked terminal t0 within 0.1 mV of rest",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked initial history correct",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC pulse_checked stoichiometry bounded",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pulse_checked HPPC missing tail explicit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "all_profiles_voltage.png produced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "all_profiles_residual.png produced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "HPPC_voltage_residual_current.png produced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "anode_potentials.png produced",
+      "passed": true,
+      "value": null
+    }
+  ]
+}

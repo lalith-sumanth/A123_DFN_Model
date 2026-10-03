@@ -1,0 +1,798 @@
+{
+  "passed": 196,
+  "checks": [
+    {
+      "check": "Original measurement bytes retained: Charge_1C",
+      "passed": true
+    },
+    {
+      "check": "Original measurement bytes retained: Charge_2C",
+      "passed": true
+    },
+    {
+      "check": "Original measurement bytes retained: Charge_3C",
+      "passed": true
+    },
+    {
+      "check": "Original measurement bytes retained: Charge_4C",
+      "passed": true
+    },
+    {
+      "check": "Original measurement bytes retained: Discharge_1C",
+      "passed": true
+    },
+    {
+      "check": "Original measurement bytes retained: HPPC_Converted",
+      "passed": true
+    },
+    {
+      "check": "Original simple 1C optimizer unchanged",
+      "passed": true
+    },
+    {
+      "check": "baseline: resistance floor",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_1C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_2C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_3C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Charge_4C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/Discharge_1C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: history bounds",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline/HPPC: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "baseline: HPPC waveform unchanged",
+      "passed": true
+    },
+    {
+      "check": "baseline: 13 long gaps retained",
+      "passed": true
+    },
+    {
+      "check": "baseline: long-gap Ah consistency",
+      "passed": true
+    },
+    {
+      "check": "baseline: transition Ah error within counter resolution",
+      "passed": true
+    },
+    {
+      "check": "multi_profile: resistance floor",
+      "passed": true
+    },
+    {
+      "check": "multi_profile: accepted final values retained",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_1C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_2C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_3C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Charge_4C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "multi_profile/Discharge_1C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles: resistance floor",
+      "passed": true
+    },
+    {
+      "check": "all_profiles: accepted final values retained",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_1C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_2C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_3C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Charge_4C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: history bounds",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/Discharge_1C: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: measurement rows preserved",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: missing tails remain empty",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: residuals and RMSE",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: full error only for complete record",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: coverage uses actual duration",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: rest-voltage initialization",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: history bounds",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: surface fractions admissible",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: previous error reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles/HPPC: previous endpoint reproduced",
+      "passed": true
+    },
+    {
+      "check": "all_profiles: HPPC waveform unchanged",
+      "passed": true
+    },
+    {
+      "check": "all_profiles: 13 long gaps retained",
+      "passed": true
+    },
+    {
+      "check": "all_profiles: long-gap Ah consistency",
+      "passed": true
+    },
+    {
+      "check": "all_profiles: transition Ah error within counter resolution",
+      "passed": true
+    },
+    {
+      "check": "Charge_1C: multi-profile and all-profile scripts use the same model",
+      "passed": true
+    },
+    {
+      "check": "Charge_2C: multi-profile and all-profile scripts use the same model",
+      "passed": true
+    },
+    {
+      "check": "Charge_3C: multi-profile and all-profile scripts use the same model",
+      "passed": true
+    },
+    {
+      "check": "Charge_4C: multi-profile and all-profile scripts use the same model",
+      "passed": true
+    },
+    {
+      "check": "Discharge_1C: multi-profile and all-profile scripts use the same model",
+      "passed": true
+    },
+    {
+      "check": "Accepted HPPC coverage retained",
+      "passed": true
+    }
+  ],
+  "max_RMSE_difference_mV": 0.007651638104835712,
+  "max_endpoint_difference_s": 0.009058242379524017,
+  "pybamm_version": "25.12.2",
+  "script_lines": {
+    "initial_parameter_optimization.py": 110,
+    "multi_profile_optimization.py": 199,
+    "baseline_run.py": 234,
+    "hppc_and_all_profiles.py": 255
+  }
+}

@@ -1,0 +1,46 @@
+trial,change,accepted,training_objective_mV,original_objective_mV,difference_mV
+1,discharge initial history only,True,40.04743612778496,40.04743612778496,0.0
+2,sweep 1: R_mOhm increase,False,39.418612539298046,39.418612539298046,0.0
+3,sweep 1: log10_Dn decrease,False,39.20117364819012,39.20117364819012,0.0
+4,sweep 1: log10_Dn increase,False,41.10816236217037,41.10816236217037,0.0
+5,sweep 1: log10_j0n decrease,False,39.74816187525615,39.74816187525615,0.0
+6,sweep 1: log10_j0n increase,False,40.32131798423263,40.32131798423263,0.0
+7,sweep 1: log10_j0p decrease,False,39.74934425513986,39.74934425513986,0.0
+8,sweep 1: log10_j0p increase,False,40.32557872778694,40.32557872778694,0.0
+9,sweep 1: negative_active_fraction decrease,False,43.07295176395196,43.07295176395196,0.0
+10,sweep 1: negative_active_fraction increase,False,37.48684442447023,37.48684442447023,0.0
+11,sweep 1: positive_active_fraction decrease,False,47.07671366849923,47.07671366849923,0.0
+12,sweep 1: positive_active_fraction increase,False,34.49521315264875,34.49521315264875,0.0
+13,sweep 1: lithium_inventory_Ah decrease,False,72.03762831839792,72.03762831839792,0.0
+14,sweep 1: lithium_inventory_Ah increase,False,63.06141861067183,63.06141861067183,0.0
+15,sweep 1: discharge_initial_LFP_charge_fraction decrease,False,43.83178697653789,43.83178697653789,0.0
+16,sweep 1: discharge_initial_LFP_charge_fraction increase,False,46.04315608352241,46.04315608352241,0.0
+17,sweep 2: R_mOhm increase,False,39.7233655867318,39.7233655867318,0.0
+18,sweep 2: log10_Dn decrease,False,39.57974893652425,39.57974893652425,0.0
+19,sweep 2: log10_Dn increase,False,40.56873176562468,40.56873176562468,0.0
+20,sweep 2: log10_j0n decrease,False,39.90358411602846,39.90358411602846,0.0
+21,sweep 2: log10_j0n increase,False,40.188276985812834,40.188276985812834,0.0
+22,sweep 2: log10_j0p decrease,False,39.90070113113693,39.90070113113693,0.0
+23,sweep 2: log10_j0p increase,False,40.19028897961398,40.19028897961398,0.0
+24,sweep 2: negative_active_fraction decrease,False,41.51052825661184,41.51052825661184,0.0
+25,sweep 2: negative_active_fraction increase,True,38.699971191929926,38.699971191929926,0.0
+26,sweep 2: positive_active_fraction decrease,False,41.8797252235517,41.8797252235517,0.0
+27,sweep 2: positive_active_fraction increase,False,35.939402766794224,35.939402766794224,0.0
+28,sweep 2: lithium_inventory_Ah decrease,False,32.98502721892782,32.98502721892782,0.0
+29,sweep 2: lithium_inventory_Ah increase,False,49.41222937723519,49.41222937723519,0.0
+30,sweep 2: discharge_initial_LFP_charge_fraction decrease,False,39.63667636645763,39.63667636645763,0.0
+31,sweep 2: discharge_initial_LFP_charge_fraction increase,False,40.52064988609081,40.52064988609081,0.0
+32,paired step 0.5: log10_Dn increase + positive_active_fraction increase,True,36.43166985644962,36.43166985644962,0.0
+33,paired step 0.25: log10_Dn increase + positive_active_fraction increase,False,37.50581668663287,37.50581668663287,0.0
+34,paired step 0.5: log10_Dn increase + negative_active_fraction increase,True,35.987808128633155,35.987808128633155,0.0
+35,paired step 0.25: log10_Dn increase + negative_active_fraction increase,False,36.18719669140864,36.18719669140864,0.0
+36,paired step 0.5: log10_j0n increase + positive_active_fraction increase,True,34.15301394222372,34.15301394222372,0.0
+37,paired step 0.25: log10_j0n increase + positive_active_fraction increase,False,35.00208818773594,35.00208818773594,0.0
+38,paired step 0.5: log10_j0n decrease + log10_j0p increase,False,34.14568936451508,34.14568936451508,0.0
+39,paired step 0.25: log10_j0n decrease + log10_j0p increase,False,34.153491273721365,34.153491273721365,0.0
+40,paired step 0.5: positive_active_fraction increase + lithium_inventory_Ah increase,False,39.03669531770708,39.03669531770708,0.0
+41,paired step 0.25: positive_active_fraction increase + lithium_inventory_Ah increase,False,36.217769113630936,36.217769113630936,0.0
+42,paired step 0.5: negative_active_fraction decrease + lithium_inventory_Ah decrease,False,37.39325076339983,37.39325076339983,0.0
+43,paired step 0.25: negative_active_fraction decrease + lithium_inventory_Ah decrease,True,32.79165828485025,32.79165828485025,0.0
+44,paired step 0.5: log10_Dn decrease + log10_j0n increase,False,32.551863678963215,32.551863678963215,0.0
+45,paired step 0.25: log10_Dn decrease + log10_j0n increase,True,32.66368196155672,32.66368196155672,0.0

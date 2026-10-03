@@ -1,0 +1,9 @@
+Parameter,Value
+R_Ohm,0.01
+Dn_m2_s,3e-15
+j0n_A_m2,7.5
+j0p_A_m2,0.05
+eps_n,0.58
+eps_p,0.374
+QLi_Ah,2.3670460787342744
+discharge_a0,1.0

@@ -1,0 +1,50 @@
+{
+  "scope": "Effective fit to 1C charge only; not independently validated",
+  "pybamm_version": "25.12.2",
+  "initial_negative_fraction": 0.07511647489326316,
+  "initial_positive_fraction": 0.7635217794211319,
+  "initial_negative_concentration_mol_m3": 2295.183890363656,
+  "initial_positive_concentration_mol_m3": 17412.877701478334,
+  "contact_resistance_Ohm": 0.016575597543094407,
+  "negative_diffusivity_multiplier": 5.930160796905526,
+  "negative_diffusivity_m2_s": 1.7790482390716578e-14,
+  "starting_RMSE_mV": 116.47311896350489,
+  "fitted_RMSE_mV": 15.289268020771889,
+  "optimizer_success": true,
+  "optimizer_message": "`xtol` termination condition is satisfied.",
+  "ocp_assumptions": "Afshar charge-only LFP branch and provisional Chen2020 graphite",
+  "settings_used_during_1C_fit": {
+    "parameter_set": "Prada2013",
+    "nominal_capacity_Ah": 2.5,
+    "negative_exchange_current_density_A_m2": 7.5,
+    "positive_exchange_current_density_A_m2": 0.05,
+    "temperature_K": 296.15,
+    "lower_voltage_cutoff_V": 2.0,
+    "upper_voltage_cutoff_V": 3.65,
+    "contact_resistance_enabled": true,
+    "geometry_and_other_parameters": "stock Prada2013 from PyBaMM 25.12.2",
+    "lfp_ocp": "Afshar charge branch, fixed throughout every profile",
+    "graphite_ocp": "provisional Chen2020 equation",
+    "dynamic_hysteresis": false
+  },
+  "all_profile_update": {
+    "optimized_numbers_changed": false,
+    "lfp_charge_ocp": "3.4510 - 0.009*y + 0.6687*exp(-35*y) - 0.5*exp(-210*(1-y))",
+    "lfp_discharge_ocp": "3.4077 - 0.020269*y + 0.5*exp(-200*y) - 0.9*exp(-30*(1-y))",
+    "source": "Uploaded Afshar2017.pdf, Section 2, PDF page 6",
+    "branch_rule": "Charge for CSV current >0.05 A, discharge for <-0.05 A; retain previous branch otherwise. Linear interpolation over measured switching intervals.",
+    "initial_branch": "Charge branch for all profiles; assumed charged prehistory, not inferred from voltage",
+    "limitation": "Direction memory is a simple approximation, not a calibrated gradual hysteresis or minor-loop model.",
+    "charge_initial_states": "Each charge starts from its own rest voltage, with fixed lithium inventory from the original 1C fit.",
+    "discharge_hppc_initial_states": "Each test starts from its own rest voltage, with fixed lithium inventory from the original 1C fit. The 1C charged endpoint is not used.",
+    "rest_initialization": {
+      "rest_voltage": "Median of the final ten initial zero-current samples, or all if fewer than ten.",
+      "additional_constraint": "Q_n*x + Q_p*y equals the inventory implied by the saved 1C initial fractions.",
+      "initial_concentration_profiles": "Uniform particles and electrolyte; unresolved residual gradients are not inferred from voltage.",
+      "initial_branch": "Charge branch assumed; voltage alone does not identify hysteresis history.",
+      "root_finder": "scipy.optimize.brentq; initial-state calculation only, no material-parameter optimization.",
+      "hppc_rest_duration_s": 8.38900096714497,
+      "limitation": "Short initial HPPC rest is treated as an OCV approximation. Flat LFP voltage and provisional OCPs make inferred states uncertain."
+    }
+  }
+}

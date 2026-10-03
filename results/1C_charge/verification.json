@@ -1,0 +1,15 @@
+{
+  "file": "initial_parameter_optimization.py",
+  "independent_single_file": true,
+  "uses_raw_CSV_current_directly": true,
+  "optimizer_actually_executed": true,
+  "measurement_rows": 6062,
+  "full_record_RMSE_mV": 15.14782003981941,
+  "previous_full_record_RMSE_mV": 15.289268020771889,
+  "no_missing_prediction_tail": true,
+  "submission_uses_tested_simple_optimizer": true,
+  "CC_phase_RMSE_mV": 9.454910597488759,
+  "submitted_script_replay_max_difference_V": 8.881784197001252e-16,
+  "resistance_Ohm": 0.0159748570518721,
+  "script_SHA256": "90828945b69c3e83fa0d85203fd6d977c6f3d018140efe84f296b7a4e2394fa5"
+}
